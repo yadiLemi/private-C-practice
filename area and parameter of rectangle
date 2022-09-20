@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int height = 7;
+    int width = 5;
+    int parametir = 2*height + 2*width;
+    int area = height * width;
+    printf("area of rectangle is = %d inches\n", area);
+    printf("parametir of rectangle is = %d inches\n", parametir);
+    
+
+    return 0;
+}
